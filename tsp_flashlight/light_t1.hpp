@@ -1,0 +1,22 @@
+ambient[] = {9, 7.5, 6};
+color[] = {1300,1100,1000};
+conefadecoef = 100;
+daylight = 1;
+flaremaxdistance = 150;
+flaresize = 0.8;
+innerangle = 20;
+intensity = 15;
+outerangle = 120;
+scale[] = {0};
+size = 1;
+useflare = 1;
+class Attenuation {
+	constant = 0;
+	hardlimitend = 150;
+	hardlimitstart = 140;
+	linear = 0;
+	quadratic = 1;
+	start = 0.25;
+};
+direction = "flash_dir";
+position = "flash_pos";
